@@ -14,13 +14,15 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <!-- google icon -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
     </head>
 
 <body>
 
     <section  class="bg-[#DAE7FF]">
-        <section class="wrapper">
+        <section class="wrapper relative">
             <header class="h-[100px] flex justify-between items-center">
                 
                 <!-- logo -->
@@ -29,7 +31,7 @@
                 </h1>
 
                 <!-- nav links -->
-                <ul class="flex justify-center items-center">
+                <ul class="hidden justify-center items-center lg:flex ">
                     <li class="mr-10"><a href="#" class="text-[18px] font-normal">Products</a></li>
                     <li class="mr-10"><a href="#" class="text-[18px] font-normal">Pricing</a></li>
                     <li class="mr-10"><a href="#" class="text-[18px] font-normal">Developers</a></li>
@@ -42,7 +44,24 @@
                     <li class="mr-10"><a href="#" class="text-[18px] font-semibold py-2 px-7 border rounded-lg border-[#0252C5] text-[#0252C5] bg-white">Login</a></li>
                 </ul>
 
+                <span class="material-symbols-outlined absolute right-0 block lg:hidden text-[#0252C5]">
+                    menu
+                </span>
+
             </header>
+
+            <!-- main page section -->
+            <section class="flex py-10 items-center justify-between">
+                <div class="w-[55%] p-10">
+                    <h1 class="text-[50px] font-black leading-tight mb-5">One App To Manage Your Tasks, Projects And Business</h1>
+                    <p class="text-[16px] font-normal mb-10">Manage all your tasks and projects and get real time insight on performance and time management in a single app. Enjoy maximum productivity with Promage.</p>
+                    <a href="#"  class="text-[14px] font-semibold py-4 px-10 bg-[#0252C5] rounded-xl text-white border-2  border-[#0252C5]">Get Started for Free</a>
+                </div>
+                <div class="w-[45%]">
+                    <img src="images/home-right.png" alt="img" class="w-full p-10">
+                </div>
+            </section>
+
         </section>
     </section>
 
